@@ -46,10 +46,11 @@ The new `localService` folder contains a `metadata.xml` service description file
 		id="sap-ui-bootstrap"
 		src="../resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_horizon"
-		data-sap-ui-compat-version="edge"
+		data-sap-ui-libs="sap.m"
+		data-sap-ui-compatVersion="edge"
 		data-sap-ui-async="true"
-		data-sap-ui-on-init="module:ui5/walkthrough/test/initMockServer"
-		data-sap-ui-resource-roots='{
+		data-sap-ui-onInit="module:ui5/walkthrough/test/initMockServer"
+		data-sap-ui-resourceroots='{
 			"ui5.walkthrough": "../"
 		}'>
 	</script>
